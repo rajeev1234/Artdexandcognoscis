@@ -27,7 +27,7 @@ is_maker => Its a boolean , make it true while signup if you are maker
 is_checker => Its a boolean, make it true while signup if you are checker
 )
 
-
+...........................................................................................................................
 
 
 URL : api-token-auth/
@@ -37,7 +37,7 @@ Method: POST
 description : for generating token
 
 
-
+........................................................................................................................................
 
 URL : api-token-verify/
 
@@ -46,7 +46,7 @@ Method: POST
 description : for verifying token
 
 
-
+............................................................................................................................................
 
 URL : api-token-refresh/
 
@@ -55,7 +55,7 @@ Method: POST
 description : for refreshing token
 
 
-
+............................................................................................................................................
 
 URL : /make or /make/<pk>
   
@@ -66,7 +66,7 @@ Headers: Authorization JWt<token>
 Request params : as per the model structure
   
   
-  
+  ............................................................................................................................................
   
 URL : /model or /model/<pk>
   
@@ -76,7 +76,7 @@ Headers: Authorization JWt<token>
   
 Request params : as per the model structure
   
-  
+  ..............................................................................................................................................................
   
 URL : /variant or /variant/<pk>
   
@@ -87,7 +87,7 @@ Headers: Authorization JWt<token>
 Request params : as per the model structure
   
   
-  
+  .........................................................................................................................................................
   
 URL : /allDetails 
   
